@@ -1,0 +1,61 @@
+
+body {
+  background-image: url('../assets/splash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 55%;
+  background-color: rgba(0, 0, 0, 0.74);
+  color: white;
+  padding: 1% 0;
+}
+
+.middle-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-text: center;
+}
+
+.header-img {
+  width: 25%;
+  text-align: center;
+}
+
+.header-text {
+  width: 80%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgba(241, 104, 36, 0.92);
+  letter-spacing: 1px;
+}
+
+.lower {
+
+  color: rgba(250, 252, 122, 0.92);
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  -ms-align-items: center;
+  align-items: center;
+  width: 70%;
+}
