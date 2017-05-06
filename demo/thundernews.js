@@ -17,14 +17,11 @@ $td(() => {
       method: 'GET',
       url
     }).then((r) => {
-      console.log(r);
       const article = r.articles[0];
-      console.log(article.urlToImage);
       imgHeader.append(`<img src=${article.urlToImage}>`);
       title.html(`${article.title}`);
       author.html(`${article.author}`);
       description.html(article.description + ` <a href=${article.url}>full article</a>`);
-      // urlLink.append(`<a href=${article.url}>Read Full Article</a>`);
 
     });
 
