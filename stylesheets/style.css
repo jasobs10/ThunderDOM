@@ -10,6 +10,8 @@ body {
   -ms-align-items: center;
   align-items: center;
   height: 100vh;
+  letter-spacing: 1.2px;
+
 }
 
 .main {
@@ -18,8 +20,8 @@ body {
   -ms-align-items: center;
   align-items: center;
   justify-content: space-between;
-  width: 55%;
-  background-color: rgba(0, 0, 0, 0.74);
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.78);
   color: white;
   padding: 1% 0;
 }
@@ -45,6 +47,8 @@ body {
   font-weight: 800;
   color: rgba(241, 104, 36, 0.92);
   letter-spacing: 1px;
+  line-height: 35px;
+
 }
 
 .lower {
@@ -57,5 +61,80 @@ body {
   justify-content: space-around;
   -ms-align-items: center;
   align-items: center;
-  width: 70%;
+  width: 90%;
+  margin: 4% 0;
+  padding: 2% 0;
+}
+
+div > button {
+  padding: 1% 0;
+  width: 30%;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+div > button:hover {
+  color: rgba(241, 104, 36, 0.92);
+  border-color: rgba(241, 104, 36, 0.92);
+  background-color: rgba(250, 252, 122, 0.92);
+}
+
+.title {
+  width: 90%;
+  text-align: center;
+  margin: 2% 0;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 800;
+}
+
+.author {
+  font-size: 20px;
+}
+
+.description {
+  width: 90%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 2% 0;
+}
+
+.description a {
+  text-decoration: underline;
+  color: rgb(241, 104, 36);
+}
+
+.url {
+  width: 80%;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(193, 241, 207);
+  font-size: 20px;
+
+}
+
+.article-img {
+  width: 50%;
+}
+
+.current {
+  color: rgba(241, 104, 36, 0.92);
+  border-color: rgba(241, 104, 36, 0.92);
+  background-color: rgba(250, 252, 122, 0.92);
+}
+
+.footer {
+  margin-top: 3%;
+  color: rgba(241, 104, 36, 0.92);
+}
+
+.footer a {
+  color: rgba(250, 252, 122, 0.92);
+  text-decoration: underline;
+  letter-spacing: 1px;
 }
