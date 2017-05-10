@@ -132,6 +132,7 @@ div > button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
 .current {
   color: rgba(241, 104, 36, 0.92);
