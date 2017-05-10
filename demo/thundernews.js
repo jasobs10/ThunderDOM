@@ -56,6 +56,7 @@ $td(() => {
   };
 
   tech.on('click',  () => {
+    
     clear();
     fetch('techcrunch');
   });
