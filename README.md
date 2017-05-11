@@ -4,7 +4,7 @@
 
 ThunderDOM is a lightweight JavaScript DOM Manipulation Library with tools to create, traverse, and manipulate DOM elements, set event handlers, and make front-end API requests. It reduces file size and loading speed by only implementing essential function.
 
-[Live Demo](http://thunderdom.bitballoon.com/) which uses ThunderDOM to make AJAX requests and manipulate/traverse DOM elements.
+[Live Demo](http://jason-liu.net/ThunderDOM/) which uses ThunderDOM to make AJAX requests and manipulate/traverse DOM elements.
 
 
 
